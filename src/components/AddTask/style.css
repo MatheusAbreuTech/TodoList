@@ -1,0 +1,35 @@
+.addTask-container {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.addTask-input {
+  height: 100%;
+  padding: 1rem;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  flex: 2;
+}
+
+.addTask-button {
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: chartreuse;
+  cursor: pointer;
+  font-size: 16px;
+  flex: 1;
+}
+
+.addTask-button:hover {
+  opacity: 0.8;
+}
